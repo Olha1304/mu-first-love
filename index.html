@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cutive&family=Poppins:wght@200;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Weather in your lovely town</title>
+  </head>
+  <body>
+    <br />
+    <h1>The weather in your town today</h1>
+    <br />
+    <br />
+    <h2></h2>
+     	<span class="temperature" id="temperature">19</span
+				><span class="units">
+					<a href="#" id="celsius-link">°C</a> |
+					<a href="#" id="fahrenheit-link">°F</a>
+    <br />
+    <h3></h3>
+    <br />
+    <form id="search-bar">
+      <input
+        type="text"
+        placeholder="Search for a city"
+        autocomplete="off"
+        autofocus="on"
+      />
+      <input type="submit" value="Search" />
+       <input type="submit" id="currentLocationButton" value="📍" />
+    </form>
+    <br />
+    <br />
+    <img src="media/bridge.jpg" alt="bridge" width="200" />
+    <br />
+    <br />
+    <div class="row">
+      <div class="col-sm-2">
+        <div class="card">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Sun_icon.svg/2040px-Sun_icon.svg.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Tomorrow</h5>
+            <p class="card-text">Temperature 21°C</p>
+            <a href="#" class="btn btn-primary">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="card">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Sun_icon.svg/2040px-Sun_icon.svg.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Tuesday</h5>
+            <p class="card-text">Temperature 21°C</p>
+            <a href="#" class="btn btn-primary">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="card">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Sun_icon.svg/2040px-Sun_icon.svg.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Wednesday</h5>
+            <p class="card-text">Temperature 21°C</p>
+            <a href="#" class="btn btn-primary">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="card">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Sun_icon.svg/2040px-Sun_icon.svg.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Thursday</h5>
+            <p class="card-text">Temperature 21°C</p>
+            <a href="#" class="btn btn-primary">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="card">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Sun_icon.svg/2040px-Sun_icon.svg.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Friday</h5>
+            <p class="card-text">Temperature 21°C</p>
+            <a href="#" class="btn btn-primary">Read more</a>
+            <script src="src/app.js"></script>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+   <div>
+      <a href="https://github.com/Olha1304/mu-first-love"> Open-source code </a> by Olha Kolisnyk
+   </div> 
+  </body>
+</html>
